@@ -2,7 +2,7 @@
 
 A production-grade, **refactored & upgraded** version of your codebase to pretrain a ~0.5B or ~1B dense decoder LLM, extend context, export to HF format, and **benchmark on widely cited leaderboards** (MMLU/Redux/Pro, HellaSwag, ARC-C/E, Winogrande, TruthfulQA, LAMBADA, PIQA, GSM8K, MATH, HumanEval, MBPP).
 
-- Single-GPU friendly (RTX 4060), scales to A100/H100.
+- Single-GPU A100 
 - Clean module split, robust arg parsing, improved optimizer & weight-decay hygiene, logging, EMA, cosine LR, z-loss, AMP/bfloat16, optional `torch.compile`.
 - Tokenizer: SentencePiece Unigram + byte-fallback (BOS/EOS/PAD/UNK ids aligned with LLaMA/Gemma style).
 - Attn: GQA with PyTorch SDPA/Flash path, RoPE with scaling (NTK/Yarn-style factor).
