@@ -76,11 +76,6 @@ We mirror the **task set & protocols** commonly used in GPT/Qwen/Claude/Gemma re
 - **Logging**: tqdm + CSV; prints throughput tokens/s and saves periodic checkpoints.
 - **Eval**: `lm-eval` harness with reasonable defaults to match vendor protocols (shots/metrics).
 
-## What to hand to professors or recruiters
-
-1. **`outputs/eval/results.json`** (artifact from `lm-eval`), and the generated **`outputs/eval/report.md`** (auto-built comparison-ready table).  
-2. **`outputs/hf_export/`** with `config.json`, `model.safetensors`, `tokenizer.model` → portable to `transformers`.  
-3. This README with citations showing you matched **their** benchmark selections and reporting style.
 
 ## References (vendor tech cards & reports)
 
