@@ -8,7 +8,6 @@ A production-grade, **refactored & upgraded** version of your codebase to pretra
 - Attn: GQA with PyTorch SDPA/Flash path, RoPE with scaling (NTK/Yarn-style factor).
 - Datasets: streaming via 🤗 `datasets` (FineWeb/FineWeb-Edu/SlimPajama or local .txt tree).
 
-> ⚠️ Academic integrity: For *chain-of-thought* restricted tasks we **do not** emit CoT; the evaluation harness uses the standard settings to stay comparable.
 
 ## Quick start
 
@@ -32,7 +31,6 @@ python -m src.cli eval --model_path outputs/hf_export --tasks configs/tasks.txt 
 
 ### Hardware presets
 
-- **RTX 4060 (8–16GB)**: use `--batch_size 1 --grad_accum 32 --seq_len 2048–4096`, `--amp --bf16`, enable checkpointing in config.
 - **A100 80GB**: bump to `--batch_size 8–16`, `--grad_accum 8–16`, `--seq_len 4096–8192`, and disable checkpointing to maximize throughput.
 
 ## Baseline sizes (YAML in `configs/`)
