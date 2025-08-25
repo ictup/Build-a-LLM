@@ -87,4 +87,3 @@ We mirror the **task set & protocols** commonly used in GPT/Qwen/Claude/Gemma re
 
 ---
 
-**Made to look great on admissions packets & recruiting pitches.** ✨
