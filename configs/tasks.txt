@@ -1,0 +1,1 @@
+mmlu,hellaswag,arc_challenge,arc_easy,winogrande,truthfulqa,piqa,lambada_openai,gsm8k,math,humaneval,mbpp

@@ -1,0 +1,7 @@
+torch>=2.3.0
+datasets>=2.19.0
+sentencepiece>=0.1.99
+tqdm>=4.66.4
+safetensors>=0.4.3
+pyyaml>=6.0.2
+lm-eval==0.4.4
